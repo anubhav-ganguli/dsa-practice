@@ -2,7 +2,7 @@
 
 ## Progress
 **Solved:** 6/145 problems  
-**Last Updated:** May 25, 2026
+**Last Updated:** May 27, 2026
 
 ## Solutions
 
@@ -15,3 +15,4 @@
 | 238 | Product of Array Except Self | Medium | [Link](https://leetcode.com/problems/product-of-array-except-self/) | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Array/4-product-of-array-except-self.java?raw=true) | May 23, 2026 | PrefixArray - Product of element to left of it. SuffixArray - Product of element to right of it. Then prefix(i)*suffix(i) |
 | 268 | Missing Number | Easy | [Link](https://leetcode.com/problems/missing-number/) | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Array/10-missing-number.java?raw=true) | May 25, 2026 | 1.HashSet (keep the array in hashset and loop from 0 to n)
 2.Use XOR method. (XOR of 0-n, then XOR each element to find the missing) |
+| 49 | Group Anagrams | Medium | [Link](https://leetcode.com/problems/group-anagrams/) | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Array/9-group-anagrams.java?raw=true) | May 27, 2026 | for each string, prepare a key [user arr[c-'a']]. This key will be used as a hasmap key, and value will be the string. Eg. cat and tac will hae same key. |
