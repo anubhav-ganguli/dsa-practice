@@ -1,8 +1,8 @@
 # DSA Problems Solutions
 
 ## Progress
-**Solved:** 9/145 problems  
-**Last Updated:** Jun 4, 2026
+**Solved:** 10/145 problems  
+**Last Updated:** Jun 9, 2026
 
 ## Solutions
 
@@ -18,3 +18,5 @@
 | 49 | Group Anagrams | Medium | [Link](https://leetcode.com/problems/group-anagrams/) | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Array/9-group-anagrams.java?raw=true) | May 27, 2026 | for each string, prepare a key [user arr[c-'a']]. This key will be used as a hasmap key, and value will be the string. Eg. cat and tac will hae same key. |
 | 11 | Container With Most Water | Medium | [Link](https://leetcode.com/problems/container-with-most-water/) | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Array/5-container-with-most-water.java?raw=true) | May 30, 2026 | Two Pointers -Opposite direction. 
 To find max, have to consider the min length between two. |
+| 189 | Rotate Array | Medium | [Link](https://leetcode.com/problems/rotate-array/) | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Array/7-rotate-array.java?raw=true) | Jun 9, 2026 | 1st Approach : n space complext - Copy each part to new Array
+Better Approach : Reverser entire array, then reverse first part, then second part |
