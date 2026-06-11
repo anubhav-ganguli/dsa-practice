@@ -1,8 +1,8 @@
 # DSA Problems Solutions
 
 ## Progress
-**Solved:** 10/145 problems  
-**Last Updated:** Jun 9, 2026
+**Solved:** 11/145 problems  
+**Last Updated:** Jun 11, 2026
 
 ## Solutions
 
@@ -20,3 +20,6 @@
 To find max, have to consider the min length between two. |
 | 189 | Rotate Array | Medium | [Link](https://leetcode.com/problems/rotate-array/) | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Array/7-rotate-array.java?raw=true) | Jun 9, 2026 | 1st Approach : n space complext - Copy each part to new Array
 Better Approach : Reverser entire array, then reverse first part, then second part |
+| 42 | Trapping Rain Water | Hard | [Link](https://leetcode.com/problems/trapping-rain-water/) | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Array/6-trapping-rain-water.java?raw=true) | Jun 11, 2026 | For each index, get leftMax & right Max.
+For each index, find out the water. Min of left and right max minus the height.
+The,sum of water |
