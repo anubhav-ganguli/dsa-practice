@@ -1,36 +1,30 @@
 public class Solution {
-    public int Trap(int[] height) {
-        
-        //computer left max
-        int[] leftMax = new int[height.Length];
 
-        int max=Int32.MinValue;
+    //Take a leader and make count as 1. Iterate over elements.If leader same, count++,if leader not same, count--
+    public int MajorityElement(int[] nums) {
+        int leader=nums[0];
 
-        for(int i=0;i<height.Length;i++)
-        {
-            max = Math.Max(max,height[i]);
-            leftMax[i]=max;
-        }
+        int count = 1;
 
-        //computer right max
-        int[] rightMax = new int[height.Length];
+         for(int i=1;i<nums.Length;i++)
+         {
+            if(count==0)
+            {
+                leader = nums[i];
+                count=1;
+            }
+            else if(nums[i] == leader)  
+              {
+                count++;
+              }
+            else if(nums[i] != leader)  
+              {
+                count--;
+              }
 
-         max=Int32.MinValue;
 
-        for(int i=height.Length - 1;i>=0;i--)
-        {
-            max = Math.Max(max,height[i]);
-            rightMax[i]=max;
-        }
-
-        //for each index, find out the water. Min of left and right max minus the height
-        int water=0;
-        for(int i=0;i<height.Length;i++)
-        {
-            water= water + (Math.Min(leftMax[i],rightMax[i]) - height[i]);
-        }
-
-        return water;
-
-}
+              
+         }
+        return leader;
+    }
 }
