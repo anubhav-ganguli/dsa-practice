@@ -1,7 +1,7 @@
 # DSA Problems Solutions
 
 ## Progress
-**Solved:** 11/145 problems  
+**Solved:** 12/145 problems  
 **Last Updated:** Jun 14, 2026
 
 ## Solutions
@@ -24,3 +24,4 @@ Better Approach : Reverser entire array, then reverse first part, then second pa
 For each index, find out the water. Min of left and right max minus the height.
 The,sum of water |
 | 347 | Top K Frequent Elements | Medium | [Link](https://leetcode.com/problems/top-k-frequent-elements/) | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Array/11-top-k-frequent-elements.java?raw=true) | Jun 14, 2026 | Create Hashmap.Reverse the hasmap .Create a second hashmap.Traverse from the length to hashmap to zero. Check if each number is present in the second hasmp for k times. If present, add to hashmap till k ends |
+| 169 | Majority Element | Easy | [Link](https://leetcode.com/problems/majority-element/) | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Array/14-majority-element.java?raw=true) | Jun 14, 2026 | Take a leader and make count as 1. Iterate over elements.If leader same, count++,if leader not same, count-- |
