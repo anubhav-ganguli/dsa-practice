@@ -2,7 +2,7 @@
 
 ## Progress
 **Solved:** 11/145 problems  
-**Last Updated:** Jun 11, 2026
+**Last Updated:** Jun 14, 2026
 
 ## Solutions
 
@@ -23,3 +23,4 @@ Better Approach : Reverser entire array, then reverse first part, then second pa
 | 42 | Trapping Rain Water | Hard | [Link](https://leetcode.com/problems/trapping-rain-water/) | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Array/6-trapping-rain-water.java?raw=true) | Jun 11, 2026 | For each index, get leftMax & right Max.
 For each index, find out the water. Min of left and right max minus the height.
 The,sum of water |
+| 347 | Top K Frequent Elements | Medium | [Link](https://leetcode.com/problems/top-k-frequent-elements/) | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Array/11-top-k-frequent-elements.java?raw=true) | Jun 14, 2026 | Create Hashmap.Reverse the hasmap .Create a second hashmap.Traverse from the length to hashmap to zero. Check if each number is present in the second hasmp for k times. If present, add to hashmap till k ends |
