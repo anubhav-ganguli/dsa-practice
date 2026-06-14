@@ -1,28 +1,30 @@
 public class Solution {
-    public int MaxArea(int[] height) {
-        
-        int L = 0;
-int R = height.Length - 1;
 
-int max = 0;
-int minHeight = 0;
+    //Take a leader and make count as 1. Iterate over elements.If leader same, count++,if leader not same, count--
+    public int MajorityElement(int[] nums) {
+        int leader=nums[0];
 
-while(L<R)
-{
-    minHeight = Math.Min(height[L], height[R]);
-    max = Math.Max(max, minHeight * (R - L));
+        int count = 1;
 
-    if (height[L] < height[R])
-    {
-        L++;
+         for(int i=1;i<nums.Length;i++)
+         {
+            if(count==0)
+            {
+                leader = nums[i];
+                count=1;
+            }
+            else if(nums[i] == leader)  
+              {
+                count++;
+              }
+            else if(nums[i] != leader)  
+              {
+                count--;
+              }
+
+
+              
+         }
+        return leader;
     }
-    else
-    {
-        R--;
-    }
-
-}
-
-return max;
-}
 }
