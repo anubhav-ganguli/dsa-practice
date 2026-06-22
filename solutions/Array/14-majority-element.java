@@ -1,30 +1,52 @@
-public class Solution {
+class Result
+{
 
-    //Take a leader and make count as 1. Iterate over elements.If leader same, count++,if leader not same, count--
-    public int MajorityElement(int[] nums) {
-        int leader=nums[0];
+    /*
+     * Complete the 'majorityElement' function below.
+     *
+     * The function is expected to return an INTEGER.
+     * The function accepts following parameters:
+     *  1. INTEGER n
+     *  2. INTEGER_ARRAY arr
+     */
 
+    public static int majorityElement(int n, List<int> arr)
+    {
+        int leader=arr[0];
         int count = 1;
 
-         for(int i=1;i<nums.Length;i++)
-         {
+        for(int i=0;i<arr.Count;i++)
+        {
+            Console.Write(arr[i]+",");
+        }
+        
+        for(int i=1;i<arr.Count;i++)
+        {
             if(count==0)
             {
-                leader = nums[i];
+                leader=arr[i];
                 count=1;
             }
-            else if(nums[i] == leader)  
-              {
+            else if(leader == arr[i])
+            {
                 count++;
-              }
-            else if(nums[i] != leader)  
-              {
+            }
+            else if(arr[i] !=leader)
+            {
                 count--;
-              }
-
-
-              
-         }
+            }
+        }
+        
+        
+        int leaderCount=0;
+        for(int i=0;i<arr.Count;i++)
+        {
+            if(leader == arr[i])
+               leaderCount++;
+        }  
+        if(leaderCount>=n/2)      
         return leader;
+        else return -1;
     }
+
 }
