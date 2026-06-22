@@ -1,7 +1,7 @@
 # DSA Problems Solutions
 
 ## Progress
-**Solved:** 12/146 problems  
+**Solved:** 13/146 problems  
 **Last Updated:** Jun 23, 2026
 
 ## Solutions
@@ -20,3 +20,4 @@
 | 189 | Rotate Array | Medium | [Link](https://leetcode.com/problems/rotate-array/) | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Array/7-rotate-array.java?raw=true) | Jun 14, 2026 | 1st Approach : n space complext - Copy each part to new Array   Better Approach : Reverser entire array, then reverse first part, then second part |
 | 42 | Trapping Rain Water | Hard | [Link](https://leetcode.com/problems/trapping-rain-water/) | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Array/6-trapping-rain-water.java?raw=true) | Jun 14, 2026 | For each index, get leftMax & right Max.For each index, find out the water. Min of left and right max minus the height.Them sum of water |
 | 169 | Majority Element | Easy | [Link](https://leetcode.com/problems/majority-element/) | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Array/14-majority-element.java?raw=true) | Jun 22, 2026 | Take a leader and make count as 1. Iterate over elements.If leader same, count++,if leader not same, count-- |
+| 229 | Majority Element II | Medium | [Link](https://leetcode.com/problems/majority-element-ii/) | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Array/15-majority-element-ii.java?raw=true) | Jun 23, 2026 | n/k can give k-1 leaders. Two leaders,Two count. Loop through and assing leaders. |
