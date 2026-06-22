@@ -1,8 +1,8 @@
 # DSA Problems Solutions
 
 ## Progress
-**Solved:** 12/145 problems  
-**Last Updated:** Jun 14, 2026
+**Solved:** 12/146 problems  
+**Last Updated:** Jun 23, 2026
 
 ## Solutions
 
@@ -15,8 +15,8 @@
 | 238 | Product of Array Except Self | Medium | [Link](https://leetcode.com/problems/product-of-array-except-self/) | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Array/4-product-of-array-except-self.java?raw=true) | May 23, 2026 | PrefixArray - Product of element to left of it. SuffixArray - Product of element to right of it. Then prefix(i)*suffix(i) |
 | 49 | Group Anagrams | Medium | [Link](https://leetcode.com/problems/group-anagrams/) | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Array/9-group-anagrams.java?raw=true) | May 27, 2026 | for each string, prepare a key [user arr[c-'a']]. This key will be used as a hasmap key, and value will be the string. Eg. cat and tac will hae same key. |
 | 347 | Top K Frequent Elements | Medium | [Link](https://leetcode.com/problems/top-k-frequent-elements/) | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Array/11-top-k-frequent-elements.java?raw=true) | Jun 14, 2026 | Create Hashmap.Reverse the hasmap .Create a second hashmap.Traverse from the length to hashmap to zero. Check if each number is present in the second hasmp for k times. If present, add to hashmap till k ends |
-| 169 | Majority Element | Easy | [Link](https://leetcode.com/problems/majority-element/) | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Array/14-majority-element.java?raw=true) | Jun 14, 2026 | Take a leader and make count as 1. Iterate over elements.If leader same, count++,if leader not same, count-- |
 | 268 | Missing Number | Easy | [Link](https://leetcode.com/problems/missing-number/) | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Array/10-missing-number.java?raw=true) | Jun 14, 2026 | 1.HashSet (keep the array in hashset and loop from 0 to n) 2.Use XOR method. (XOR of 0-n, then XOR each element to find the missing) |
 | 11 | Container With Most Water | Medium | [Link](https://leetcode.com/problems/container-with-most-water/) | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Array/5-container-with-most-water.java?raw=true) | Jun 14, 2026 | Two Pointers -Opposite direction. To find max, have to consider the min length between two. |
 | 189 | Rotate Array | Medium | [Link](https://leetcode.com/problems/rotate-array/) | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Array/7-rotate-array.java?raw=true) | Jun 14, 2026 | 1st Approach : n space complext - Copy each part to new Array   Better Approach : Reverser entire array, then reverse first part, then second part |
 | 42 | Trapping Rain Water | Hard | [Link](https://leetcode.com/problems/trapping-rain-water/) | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Array/6-trapping-rain-water.java?raw=true) | Jun 14, 2026 | For each index, get leftMax & right Max.For each index, find out the water. Min of left and right max minus the height.Them sum of water |
+| 169 | Majority Element | Easy | [Link](https://leetcode.com/problems/majority-element/) | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Array/14-majority-element.java?raw=true) | Jun 23, 2026 | Take a leader and make count as 1. Iterate over elements.If leader same, count++,if leader not same, count-- |
