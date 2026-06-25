@@ -1,7 +1,7 @@
 # DSA Problems Solutions
 
 ## Progress
-**Solved:** 14/146 problems  
+**Solved:** 15/146 problems  
 **Last Updated:** Jun 25, 2026
 
 ## Solutions
@@ -22,3 +22,4 @@
 | 169 | Majority Element | Easy | [Link](https://leetcode.com/problems/majority-element/) | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Array/14-majority-element.java?raw=true) | Jun 22, 2026 | Take a leader and make count as 1. Iterate over elements.If leader same, count++,if leader not same, count-- |
 | 229 | Majority Element II | Medium | [Link](https://leetcode.com/problems/majority-element-ii/) | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Array/15-majority-element-ii.java?raw=true) | Jun 23, 2026 | n/k can give k-1 leaders. Two leaders,Two count. Loop through and assing leaders. |
 | 128 | Longest Consecutive Sequence | Medium | [Link](https://leetcode.com/problems/longest-consecutive-sequence/) | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Array/16-longest-consecutive-sequence.java?raw=true) | Jun 25, 2026 | Sliding Window + HashSet: Expand the right pointer to include unique characters; when a duplicate is found, shrink the left pointer until the duplicate is removed. Track the maximum window size throughout. O(n*k) |
+| 443 | String Compression | Medium | [Link](https://leetcode.com/problems/string-compression/) | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Array/21-string-compression.java?raw=true) | Jun 25, 2026 | i tracks the current character group, j counts its consecutive occurrences, and w writes the compressed result back into the same array.Process one group at a time by counting with j, writing the character and its count (if > 1), achieving O(n) time and O(1) space. |
