@@ -1,7 +1,7 @@
 # DSA Problems Solutions
 
 ## Progress
-**Solved:** 18/146 problems  
+**Solved:** 19/146 problems  
 **Last Updated:** Jun 28, 2026
 
 ## Solutions
@@ -26,3 +26,4 @@
 | 392 | Is Subsequence | Easy | [Link](https://leetcode.com/problems/is-subsequence/) | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Array/22-is-subsequence.java?raw=true) | Jun 26, 2026 | Use one pointer i for s and another pointer j for t.Traverse t using j; whenever s[i] == t[j], move i forward. If i reaches the end of s, then s is a subsequence of t. |
 | 155 | Min Stack | Medium | [Link](https://leetcode.com/problems/min-stack/) | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Array/26-min-stack.java?raw=true) | Jun 27, 2026 | To track minimum, create another list/array. For every value, check the minimum between the value and the last inserted value in the list. Store the minimum. |
 | 206 | Reverse Linked List | Easy | [Link](https://leetcode.com/problems/reverse-linked-list/) | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Linked%20List/35-reverse-linked-list.js?raw=true) | Jun 28, 2026 | prev,curr,next . On each loop,next->curr.next, curr.next->prev, prev->curr, curr->next |
+| 21 | Merge Two Sorted Lists | Easy | [Link](https://leetcode.com/problems/merge-two-sorted-lists/) | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Linked%20List/36-merge-two-sorted-lists.js?raw=true) | Jun 28, 2026 | Take a dummy pointer and curr pointer. |
