@@ -1,7 +1,7 @@
 # DSA Problems Solutions
 
 ## Progress
-**Solved:** 22/146 problems  
+**Solved:** 23/146 problems  
 **Last Updated:** Jun 29, 2026
 
 ## Solutions
@@ -30,3 +30,4 @@
 | 151 | Reverse Words in a String | Medium | [Link](https://leetcode.com/problems/reverse-words-in-a-string/) | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Array/20-reverse-words-in-a-string.java?raw=true) | Jun 29, 2026 | Split to string array.Start loop from nth array, add each words to string separted by space. |
 | 143 | Reorder List | Medium | [Link](https://leetcode.com/problems/reorder-list/) | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Linked%20List/37-reorder-list.java?raw=true) | Jun 29, 2026 | reverse Linked list after mid point, and merge alternatively. For odd, first half takes the extra node(if 5 nodes, first half before mid is 3, second half is 2) |
 | 3 | Longest Substring Without Repeating Characters | Medium | [Link](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Array/18-longest-substring-without-repeating-characters.java?raw=true) | Jun 29, 2026 | Maintain a sliding window containing only unique characters using a HashSet. When a duplicate appears, move the left pointer and remove each element from the hashset until the duplicate is removed and update the maximum window size. |
+| 239 | Sliding Window Maximum | Hard | [Link](https://leetcode.com/problems/sliding-window-maximum/) | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Array/27-sliding-window-maximum.java?raw=true) | Jun 29, 2026 | Create a separte list/LL (Deque). In a window, add the elements in the list and when a larger element enters the window, all smaller elements behind it are removed because they can never become the maximum while the larger element is still present. This way, we keep only the useful candidates, and the first element always gives the maximum of the current window. |
