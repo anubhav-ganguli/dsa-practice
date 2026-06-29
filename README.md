@@ -1,8 +1,8 @@
 # DSA Problems Solutions
 
 ## Progress
-**Solved:** 19/146 problems  
-**Last Updated:** Jun 28, 2026
+**Solved:** 20/146 problems  
+**Last Updated:** Jun 29, 2026
 
 ## Solutions
 
@@ -27,3 +27,4 @@
 | 155 | Min Stack | Medium | [Link](https://leetcode.com/problems/min-stack/) | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Array/26-min-stack.java?raw=true) | Jun 27, 2026 | To track minimum, create another list/array. For every value, check the minimum between the value and the last inserted value in the list. Store the minimum. |
 | 206 | Reverse Linked List | Easy | [Link](https://leetcode.com/problems/reverse-linked-list/) | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Linked%20List/35-reverse-linked-list.js?raw=true) | Jun 28, 2026 | prev,curr,next . On each loop,next->curr.next, curr.next->prev, prev->curr, curr->next |
 | 21 | Merge Two Sorted Lists | Easy | [Link](https://leetcode.com/problems/merge-two-sorted-lists/) | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Linked%20List/36-merge-two-sorted-lists.js?raw=true) | Jun 28, 2026 | Take a dummy pointer and curr pointer. |
+| 151 | Reverse Words in a String | Medium | [Link](https://leetcode.com/problems/reverse-words-in-a-string/) | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Array/20-reverse-words-in-a-string.java?raw=true) | Jun 29, 2026 | Split to string array.Start loop from nth array, add each words to string separted by space. |
