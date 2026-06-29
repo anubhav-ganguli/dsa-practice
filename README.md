@@ -1,7 +1,7 @@
 # DSA Problems Solutions
 
 ## Progress
-**Solved:** 20/146 problems  
+**Solved:** 21/146 problems  
 **Last Updated:** Jun 29, 2026
 
 ## Solutions
@@ -28,3 +28,4 @@
 | 206 | Reverse Linked List | Easy | [Link](https://leetcode.com/problems/reverse-linked-list/) | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Linked%20List/35-reverse-linked-list.js?raw=true) | Jun 28, 2026 | prev,curr,next . On each loop,next->curr.next, curr.next->prev, prev->curr, curr->next |
 | 21 | Merge Two Sorted Lists | Easy | [Link](https://leetcode.com/problems/merge-two-sorted-lists/) | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Linked%20List/36-merge-two-sorted-lists.js?raw=true) | Jun 28, 2026 | Take a dummy pointer and curr pointer. |
 | 151 | Reverse Words in a String | Medium | [Link](https://leetcode.com/problems/reverse-words-in-a-string/) | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Array/20-reverse-words-in-a-string.java?raw=true) | Jun 29, 2026 | Split to string array.Start loop from nth array, add each words to string separted by space. |
+| 143 | Reorder List | Medium | [Link](https://leetcode.com/problems/reorder-list/) | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Linked%20List/37-reorder-list.java?raw=true) | Jun 29, 2026 | reverse Linked list after mid point, and merge alternatively. For odd, first half takes the extra node(if 5 nodes, first half before mid is 3, second half is 2) |
