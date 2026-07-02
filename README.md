@@ -1,8 +1,8 @@
 # DSA Problems Solutions
 
 ## Progress
-**Solved:** 25/146 problems  
-**Last Updated:** Jun 29, 2026
+**Solved:** 26/146 problems  
+**Last Updated:** Jul 2, 2026
 
 ## Solutions
 
@@ -33,3 +33,4 @@
 | 239 | Sliding Window Maximum | Hard | [Link](https://leetcode.com/problems/sliding-window-maximum/) | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Array/27-sliding-window-maximum.java?raw=true) | Jun 29, 2026 | Create a separte list/LL (Deque). In a window, add the elements in the list and when a larger element enters the window, all smaller elements behind it are removed because they can never become the maximum while the larger element is still present. This way, we keep only the useful candidates, and the first element always gives the maximum of the current window. |
 | 0 | Implementation | Medium | - | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Linked%20List/33-implementation.java?raw=true) | Jun 29, 2026 | - |
 | 0 | Doubly Linked List | Medium | - | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Linked%20List/34-doubly-linked-list.java?raw=true) | Jun 29, 2026 | - |
+| 141 | Linked List Cycle | Easy | [Link](https://leetcode.com/problems/linked-list-cycle/) | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Linked%20List/38-linked-list-cycle.java?raw=true) | Jul 2, 2026 | Take fast and slow pointers. If fast == slow , return true else false |
