@@ -1,7 +1,7 @@
 # DSA Problems Solutions
 
 ## Progress
-**Solved:** 28/146 problems  
+**Solved:** 29/146 problems  
 **Last Updated:** Jul 3, 2026
 
 ## Solutions
@@ -36,3 +36,4 @@
 | 141 | Linked List Cycle | Easy | [Link](https://leetcode.com/problems/linked-list-cycle/) | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Linked%20List/38-linked-list-cycle.java?raw=true) | Jul 2, 2026 | Take fast and slow pointers. If fast == slow , return true else false |
 | 142 | Linked List Cycle II | Medium | [Link](https://leetcode.com/problems/linked-list-cycle-ii/) | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Linked%20List/39-linked-list-cycle-ii.java?raw=true) | Jul 3, 2026 | Fast & slow pointers. First determine if cycle exist. Move any of the pointers to head. Move both pointers by one step. Their meeting point is the start of the cycle |
 | 83 | Remove Duplicates from Sorted List | Easy | [Link](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Linked%20List/42-remove-duplicates-from-sorted-list.java?raw=true) | Jul 3, 2026 | Check if the next value is same as curr, if yes, move till the value doesnt match. Point the curr.next to that node. |
+| 287 | Find the Duplicate Number | Medium | [Link](https://leetcode.com/problems/find-the-duplicate-number/) | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Linked%20List/40-find-the-duplicate-number.java?raw=true) | Jul 3, 2026 | use slow fast. Detemine if cycle, then move by one step.then meet point is the result |
