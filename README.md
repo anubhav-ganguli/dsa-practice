@@ -1,8 +1,8 @@
 # DSA Problems Solutions
 
 ## Progress
-**Solved:** 26/146 problems  
-**Last Updated:** Jul 2, 2026
+**Solved:** 27/146 problems  
+**Last Updated:** Jul 3, 2026
 
 ## Solutions
 
@@ -34,4 +34,4 @@
 | 0 | Implementation | Medium | - | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Linked%20List/33-implementation.java?raw=true) | Jun 29, 2026 | - |
 | 0 | Doubly Linked List | Medium | - | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Linked%20List/34-doubly-linked-list.java?raw=true) | Jun 29, 2026 | - |
 | 141 | Linked List Cycle | Easy | [Link](https://leetcode.com/problems/linked-list-cycle/) | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Linked%20List/38-linked-list-cycle.java?raw=true) | Jul 2, 2026 | Take fast and slow pointers. If fast == slow , return true else false |
-| 142 | Linked List Cycle II | Medium | [Link](https://leetcode.com/problems/linked-list-cycle-ii/) | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Linked%20List/39-linked-list-cycle-ii.java?raw=true) | Jul 2, 2026 | Fast & slow pointers. First determine if cycle exist. Move any of the pointers to head. Move both pointers by one step. Their meeting point is the start of the cycle |
+| 142 | Linked List Cycle II | Medium | [Link](https://leetcode.com/problems/linked-list-cycle-ii/) | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Linked%20List/39-linked-list-cycle-ii.java?raw=true) | Jul 3, 2026 | Fast & slow pointers. First determine if cycle exist. Move any of the pointers to head. Move both pointers by one step. Their meeting point is the start of the cycle |
