@@ -1,7 +1,7 @@
 # DSA Problems Solutions
 
 ## Progress
-**Solved:** 30/146 problems  
+**Solved:** 31/146 problems  
 **Last Updated:** Jul 5, 2026
 
 ## Solutions
@@ -38,3 +38,4 @@
 | 83 | Remove Duplicates from Sorted List | Easy | [Link](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Linked%20List/42-remove-duplicates-from-sorted-list.java?raw=true) | Jul 3, 2026 | Check if the next value is same as curr, if yes, move till the value doesnt match. Point the curr.next to that node. |
 | 287 | Find the Duplicate Number | Medium | [Link](https://leetcode.com/problems/find-the-duplicate-number/) | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Linked%20List/40-find-the-duplicate-number.java?raw=true) | Jul 3, 2026 | use slow fast. Detemine if cycle, then move by one step.then meet point is the result |
 | 53 | Maximum Subarray | Medium | [Link](https://leetcode.com/problems/maximum-subarray/) | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Array/19-maximum-subarray.java?raw=true) | Jul 5, 2026 | Make current sum as zero when its negative. Means we are starting a new subarray. |
+| 41 | First Missing Positive | Hard | [Link](https://leetcode.com/problems/first-missing-positive/description/) | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Array/1781876303774-first-missing-positive.java?raw=true) | Jul 5, 2026 | Replace negative numbers using the junk value. Mark the numbers by negating all the numbers based on index-1.Find first positive number and return index+1 |
