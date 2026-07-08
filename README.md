@@ -1,8 +1,8 @@
 # DSA Problems Solutions
 
 ## Progress
-**Solved:** 31/146 problems  
-**Last Updated:** Jul 5, 2026
+**Solved:** 32/146 problems  
+**Last Updated:** Jul 8, 2026
 
 ## Solutions
 
@@ -39,3 +39,4 @@
 | 287 | Find the Duplicate Number | Medium | [Link](https://leetcode.com/problems/find-the-duplicate-number/) | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Linked%20List/40-find-the-duplicate-number.java?raw=true) | Jul 3, 2026 | use slow fast. Detemine if cycle, then move by one step.then meet point is the result |
 | 53 | Maximum Subarray | Medium | [Link](https://leetcode.com/problems/maximum-subarray/) | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Array/19-maximum-subarray.java?raw=true) | Jul 5, 2026 | Make current sum as zero when its negative. Means we are starting a new subarray. |
 | 41 | First Missing Positive | Hard | [Link](https://leetcode.com/problems/first-missing-positive/description/) | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Array/1781876303774-first-missing-positive.java?raw=true) | Jul 5, 2026 | Replace negative numbers using the junk value. Mark the numbers by negating all the numbers based on index-1.Find first positive number and return index+1 |
+| 160 | Intersection of Two Linked Lists | Easy | [Link](https://leetcode.com/problems/intersection-of-two-linked-lists/) | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Linked%20List/43-intersection-of-two-linked-lists.java?raw=true) | Jul 8, 2026 | travser both temp heads. if teamhead1 reaches null, point it to head2.if temphead2 reaches null, point it to head1. if temphead1 == temphead2 , return tempHead |
