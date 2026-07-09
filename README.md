@@ -1,8 +1,8 @@
 # DSA Problems Solutions
 
 ## Progress
-**Solved:** 33/146 problems  
-**Last Updated:** Jul 8, 2026
+**Solved:** 34/146 problems  
+**Last Updated:** Jul 9, 2026
 
 ## Solutions
 
@@ -41,3 +41,4 @@
 | 41 | First Missing Positive | Hard | [Link](https://leetcode.com/problems/first-missing-positive/description/) | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Array/1781876303774-first-missing-positive.java?raw=true) | Jul 5, 2026 | Replace negative numbers using the junk value. Mark the numbers by negating all the numbers based on index-1.Find first positive number and return index+1 |
 | 160 | Intersection of Two Linked Lists | Easy | [Link](https://leetcode.com/problems/intersection-of-two-linked-lists/) | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Linked%20List/43-intersection-of-two-linked-lists.java?raw=true) | Jul 8, 2026 | travser both temp heads. if teamhead1 reaches null, point it to head2.if temphead2 reaches null, point it to head1. if temphead1 == temphead2 , return tempHead |
 | 1472 | Design Browser History | Medium | [Link](https://leetcode.com/problems/design-browser-history/) | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Linked%20List/45-design-browser-history.java?raw=true) | Jul 8, 2026 | Use Doubly Linked List |
+| 146 | LRU Cache | Medium | [Link](https://leetcode.com/problems/lru-cache/) | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Linked%20List/41-lru-cache.java?raw=true) | Jul 9, 2026 | Add recently to the tail. Add new items to tail. Reposition recently access items to the tail. If capacity exceeds, remove the head node and point head to next node. |
