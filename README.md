@@ -1,7 +1,7 @@
 # DSA Problems Solutions
 
 ## Progress
-**Solved:** 36/146 problems  
+**Solved:** 37/146 problems  
 **Last Updated:** Aug 16, 2026
 
 ## Solutions
@@ -44,3 +44,4 @@
 | 146 | LRU Cache | Medium | [Link](https://leetcode.com/problems/lru-cache/) | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Linked%20List/41-lru-cache.txt?raw=true) | Jul 9, 2026 | Add recently to the tail. Add new items to tail. Reposition recently access items to the tail. If capacity exceeds, remove the head node and point head to next node. |
 | 0 | BST IMP(DFS,BFS, Remove, Add) | Medium | - | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Trees/60-bst-imp-dfs-bfs-remove-add.java?raw=true) | Aug 16, 2026 | - |
 | 102 | Binary Tree Level Order Traversal | Medium | [Link](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Trees/61-binary-tree-level-order-traversal.java?raw=true) | Aug 16, 2026 | Maintain Queue. For list of list, maintain a list  -level. Rest is same as BFS teaversal |
+| 144 | Binary Tree Preorder Traversal | Easy | [Link](https://leetcode.com/problems/binary-tree-preorder-traversal/) | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Trees/62-binary-tree-preorder-traversal.java?raw=true) | Aug 16, 2026 | Add/Print the value. Call left tree, Call right tree |
