@@ -2,7 +2,7 @@
 
 ## Progress
 **Solved:** 34/146 problems  
-**Last Updated:** Jul 9, 2026
+**Last Updated:** Aug 16, 2026
 
 ## Solutions
 
@@ -42,3 +42,4 @@
 | 160 | Intersection of Two Linked Lists | Easy | [Link](https://leetcode.com/problems/intersection-of-two-linked-lists/) | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Linked%20List/43-intersection-of-two-linked-lists.java?raw=true) | Jul 8, 2026 | travser both temp heads. if teamhead1 reaches null, point it to head2.if temphead2 reaches null, point it to head1. if temphead1 == temphead2 , return tempHead |
 | 1472 | Design Browser History | Medium | [Link](https://leetcode.com/problems/design-browser-history/) | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Linked%20List/45-design-browser-history.java?raw=true) | Jul 8, 2026 | Use Doubly Linked List |
 | 146 | LRU Cache | Medium | [Link](https://leetcode.com/problems/lru-cache/) | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Linked%20List/41-lru-cache.txt?raw=true) | Jul 9, 2026 | Add recently to the tail. Add new items to tail. Reposition recently access items to the tail. If capacity exceeds, remove the head node and point head to next node. |
+| 0 | BST IMP(DFS,BFS, Remove, Add) | Medium | - | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Trees/60-bst-imp-dfs-bfs-remove-add.java?raw=true) | Aug 16, 2026 | - |
