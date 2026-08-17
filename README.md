@@ -1,8 +1,8 @@
 # DSA Problems Solutions
 
 ## Progress
-**Solved:** 37/146 problems  
-**Last Updated:** Aug 16, 2026
+**Solved:** 38/146 problems  
+**Last Updated:** Aug 18, 2026
 
 ## Solutions
 
@@ -45,3 +45,4 @@
 | 0 | BST IMP(DFS,BFS, Remove, Add) | Medium | - | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Trees/60-bst-imp-dfs-bfs-remove-add.java?raw=true) | Aug 16, 2026 | - |
 | 102 | Binary Tree Level Order Traversal | Medium | [Link](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Trees/61-binary-tree-level-order-traversal.java?raw=true) | Aug 16, 2026 | Maintain Queue. For list of list, maintain a list  -level. Rest is same as BFS teaversal |
 | 144 | Binary Tree Preorder Traversal | Easy | [Link](https://leetcode.com/problems/binary-tree-preorder-traversal/) | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Trees/62-binary-tree-preorder-traversal.java?raw=true) | Aug 16, 2026 | Add/Print the value. Call left tree, Call right tree |
+| 450 | Delete Node in a BST | Medium | [Link](https://leetcode.com/problems/delete-node-in-a-bst/) | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Trees/63-delete-node-in-a-bst.java?raw=true) | Aug 18, 2026 | delete node. select right most lowest child to replace the value  |
