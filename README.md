@@ -1,8 +1,8 @@
 # DSA Problems Solutions
 
 ## Progress
-**Solved:** 39/146 problems  
-**Last Updated:** Aug 18, 2026
+**Solved:** 40/146 problems  
+**Last Updated:** Aug 19, 2026
 
 ## Solutions
 
@@ -47,3 +47,4 @@
 | 144 | Binary Tree Preorder Traversal | Easy | [Link](https://leetcode.com/problems/binary-tree-preorder-traversal/) | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Trees/62-binary-tree-preorder-traversal.java?raw=true) | Aug 16, 2026 | Add/Print the value. Call left tree, Call right tree |
 | 450 | Delete Node in a BST | Medium | [Link](https://leetcode.com/problems/delete-node-in-a-bst/) | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Trees/63-delete-node-in-a-bst.java?raw=true) | Aug 18, 2026 | delete node. select right most lowest child to replace the value  |
 | 226 | Invert Binary Tree | Easy | [Link](https://leetcode.com/problems/invert-binary-tree/) | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Trees/64-invert-binary-tree.java?raw=true) | Aug 18, 2026 | swap right and left child. Repeat same for left child, then for right child |
+| 104 | Maximum Depth of Binary Tree | Easy | [Link](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [Code](https://raw.githubusercontent.com/anubhav-ganguli/dsa-practice/main/solutions/Trees/65-maximum-depth-of-binary-tree.java?raw=true) | Aug 19, 2026 | increment level. check maxlevel. Repeat for left subtree. then right subtree.return maxlevel |
